@@ -16,7 +16,7 @@ public class Main {
         };
         EllipseRasterizer ell = new EllipseRasterizer(setter);
 
-        ell.drawByRect(5git --version0, 50, 200, 100);        // по прямоугольнику
+        ell.drawByRect(50, 50, 200, 100);        // по прямоугольнику
         ell.drawByCenter(400, 150, 80, 30);      // по центру и полуосям
         ell.drawByCorners(300, 300, 100, 200);   // вершины «наоборот»
         ell.drawByCenter(600, 400, 40, 40);      // окружность
